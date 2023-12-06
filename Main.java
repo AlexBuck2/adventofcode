@@ -50,9 +50,9 @@ public class Main {
         for (int i = 0; i < split.length; i++) {
             ArrayList<Character> rows = new ArrayList<>();
             for (int j = 0; j < split[i].length(); j++) {
-                rows.add(split[i].charAt(j));  // Add each character directly to the ArrayList
+                rows.add(split[i].charAt(j));  
             }
-            array.add(rows);  // Add the row to the 2D ArrayList
+            array.add(rows); 
         }
         printTable(array);
     }
