@@ -345,7 +345,6 @@ public class Main {
                 if (array.get(i).charAt(n) == ' ' && Character.isDigit(array.get(i).charAt(n - 1)) && Character.isLetter(array.get(i).charAt(n + 1))) {
                     int tempNumber = Integer.parseInt(temp);
                     // System.out.println("test" + tempNumber);
-                    // Adjust the conditions based on your intended logic
                     if ((array.get(i).charAt(n + 1) == 'r' && tempNumber <= 12) || (array.get(i).charAt(n + 1) == 'g' && tempNumber <= 13) || (array.get(i).charAt(n + 1) == 'b' && tempNumber <= 14)) {
                         // System.out.println("test 2" + temp);
                         temp = "";
